@@ -1,0 +1,21 @@
+.logo-ctn {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.logo-img {
+  width: 30px;
+  height: 30px;
+}
+
+.logo-title {
+  font-weight: bold;
+  font-size: 1.7rem;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .logo-title {
+    font-size: 1.5rem;
+  }
+}

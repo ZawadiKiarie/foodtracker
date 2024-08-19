@@ -1,0 +1,30 @@
+.profile-ctn {
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+  padding: 10px;
+}
+
+.profile-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: .8rem;
+}
+
+.profile-name {
+  font-weight: bold;
+  opacity: 0.7;
+  font-size: 1.5rem;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .profile-img {
+    width: 60px;
+    height: 60px;
+  }
+  
+  .profile-name {
+    font-size: 1.3rem;
+  }
+}
